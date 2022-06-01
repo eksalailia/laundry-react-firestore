@@ -1,0 +1,68 @@
+body{
+    padding: 20px;
+    margin:0px; 
+  }
+  
+  .Judul{
+    color:white;
+  }
+  
+  h1,h2,p, ul,li{
+    font-family: sans-serif;
+  }
+  
+  ul.MenuAtas{
+    background-color: #23Ba91;
+    padding: 15px;
+  }
+  
+  ul.MenuAtas li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  ul.MenuAtas li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  .content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    min-height: 300px;
+    line-height: 30px;
+  }
+  .content h2{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .content li {
+    margin-bottom: 10px;
+  }
+  
+  
+  input{
+    width:100%;
+    padding: 5px 0 5px 5px;
+    border-radius:0px;
+    border:1px solid rgb(30, 180, 160);
+  }
+  
+  textarea{
+    padding: 5px 0 5px 5px;
+    border-radius:0px;
+    width:100%;
+    height: 100px;
+    border:1px solid rgb(30, 180, 160);
+  }
+  
+  button{
+    padding: 5px 0 5px 5px;
+    width:150px;
+    border-radius:0px;
+    font-weight: bold;
+    border:1px solid rgb(30, 180, 160);
+  }
