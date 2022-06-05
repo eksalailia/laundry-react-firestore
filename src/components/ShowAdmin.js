@@ -48,13 +48,13 @@ class ShowAdmin extends Component {
           </div>
           <div class="panel-body">
             <dl>
-              <dt>id:</dt>
+              <dt>ID Admin:</dt>
               <dd>{this.state.admin.id}</dd>
-              <dt>nama:</dt>
+              <dt>Nama:</dt>
               <dd>{this.state.admin.nama}</dd>
-              <dt>alamat:</dt>
+              <dt>Alamat:</dt>
               <dd>{this.state.admin.alamat}</dd>
-              <dt>telepon:</dt>
+              <dt>Telepon:</dt>
               <dd>{this.state.admin.telepon}</dd>
             </dl>
             {/* <Link to={`/edit/${this.state.key}`} class="btn btn-success">Edit</Link>&nbsp; */}

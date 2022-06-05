@@ -10,10 +10,10 @@ class Nav extends Component{
                   {/* <h1 className="Judul">Log of Oyazhuryachna</h1>   */}
                   <ul className="MenuAtas">
                     <li><NavLink className="navbar-brand" to="/dashboard">Dashboard</NavLink></li>
-                    <li><NavLink to="/admin">Daftar Admin</NavLink></li>
-                    <li><NavLink to="/order">Pesanan</NavLink></li>
+                    <li><NavLink to="/admin">Data Admin</NavLink></li>
+                    <li><NavLink to="/layanan">Data Layanan</NavLink></li>
+                    <li><NavLink to="/order">Pesanan Masuk</NavLink></li>
                     {/* <li><NavLink to="/login">Login</NavLink></li> */}
-                    <li><NavLink to="/layanan">Daftar Layanan</NavLink></li>
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}
                   </ul>
                   

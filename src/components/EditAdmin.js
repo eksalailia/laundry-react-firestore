@@ -71,27 +71,27 @@ class EditAdmin extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              Edit admin
+              Edit Admin
             </h3>
           </div>
           <div class="panel-body">
             <h4><Link to="/admin" class="btn btn-primary">Admin List</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
-                <label for="id">ID:</label>
-                <input type="text" class="form-control" name="id" value={this.state.id} onChange={this.onChange} placeholder="id" />
+                <label for="id"> Admin:</label>
+                <input type="text" class="form-control" name="id" value={this.state.id} onChange={this.onChange} placeholder="ID" />
               </div>
               <div class="form-group">
                 <label for="nama">Nama:</label>
-                <input type="text" class="form-control" name="nama" value={this.state.nama} onChange={this.onChange} placeholder="nama" />
+                <input type="text" class="form-control" name="nama" value={this.state.nama} onChange={this.onChange} placeholder="Nama" />
               </div>
               <div class="form-group">
                 <label for="alamat">Alamat:</label>
-                <input type="text" class="form-control" name="alamat" value={this.state.alamat} onChange={this.onChange} placeholder="alamat" />
+                <input type="text" class="form-control" name="alamat" value={this.state.alamat} onChange={this.onChange} placeholder="Alamat" />
               </div>
               <div class="form-group">
                 <label for="telepon">Telepon:</label>
-                <input type="text" class="form-control" name="telepon" value={this.state.telepon} onChange={this.onChange} placeholder="telepon" />
+                <input type="text" class="form-control" name="telepon" value={this.state.telepon} onChange={this.onChange} placeholder="Telepon" />
               </div>
               <button type="submit" class="btn btn-success">Submit</button>
             </form>

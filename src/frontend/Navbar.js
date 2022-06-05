@@ -24,6 +24,7 @@ import React, {Component} from "react";
 import {Route,NavLink,HashRouter} from "react-router-dom";
 import Home from "../frontend/Home";
 import About from "../frontend/About";
+import Contact from "../frontend/Contact";
 import './Navbar.css'
 import { Container } from "@material-ui/core";
 
@@ -36,6 +37,7 @@ class Navbar extends Component{
                     <li><NavLink className="navbar-brand" to="/">LaundryKita</NavLink></li>
                     <li><NavLink to="/home">Home</NavLink></li>
                     <li><NavLink to="/about">About Us</NavLink></li>
+                    <li><NavLink to="/contact">Contact Us</NavLink></li>
                     {/* <li><NavLink to="/login">Login</NavLink></li> */}
                     <li><NavLink to="/formorder">Form Order</NavLink></li>
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}

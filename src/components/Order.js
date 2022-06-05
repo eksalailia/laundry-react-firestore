@@ -62,9 +62,9 @@ class Order extends Component {
               <thead>
                 <tr>
                   <th>Nama</th>
-                  <th>layanan</th>
-                  <th>berat</th>
-                  <th>total</th>
+                  <th>Layanan</th>
+                  <th>Berat</th>
+                  <th>Total</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -83,7 +83,7 @@ class Order extends Component {
                 )}
               </tbody>
             </table>
-            <h4><Link to="/dashboard" class="btn btn-info">Dashboard</Link></h4>
+            <h4><Link to="/dashboard" class="btn btn-info">Back to Dashboard</Link></h4>
           </div>
         </div>
       </div>

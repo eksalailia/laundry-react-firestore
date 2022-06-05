@@ -41,17 +41,21 @@ class Home extends Component {
         let layananList = this.state.layanan.map(layanan => {
             return (
                 <div class="card" style={{ width: '28rem' }}>
-                    <div class="card-body">
+                    <div class="card bg-info text-white">
+	                <div class="card-header">
+                        <h4>Layanan</h4><hr className="border-white"/>
                         <p class="card-title">{layanan.nama}</p>
                         <p class="card-title">{layanan.harga}</p>
                         <p class="card-title">{layanan.deskripsi}</p>
                     </div>
                 </div>
+                </div>
+                
             )
         })
         return (
             <div className="container">
-                <h2 className="center">Layanan</h2><br></br>
+                <h2 className="center">Daftar Layanan</h2><br></br>
                 <div className="box" align="center">
                     {layananList}
                 </div>

@@ -53,15 +53,15 @@ class Admin extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              admin LIST
+              ADMIN LIST
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/dataadmin" class="btn btn-primary">Add admin</Link></h4>
+            <h4><Link to="/dataadmin" class="btn btn-primary">Add Admin</Link></h4>
             <table class="table table-stripe">
               <thead>
                 <tr>
-                  <th>ID</th>
+                  <th>ID Admin</th>
                   <th>Nama</th>
                   <th>Alamat</th>
                   <th>Telepon</th>
@@ -83,7 +83,7 @@ class Admin extends Component {
                 )}
               </tbody>
             </table>
-            <h4><Link to="/dashboard" class="btn btn-info">Dashboard</Link></h4>
+            <h4><Link to="/dashboard" class="btn btn-info">Back to Dashboard</Link></h4>
           </div>
         </div>
       </div>

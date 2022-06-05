@@ -54,6 +54,7 @@ import ShowAdmin from './components/ShowAdmin';
 import EditAdmin from './components/EditAdmin';
 import Dashboard from './components/Dashboard';
 import index from './components/index';
+import Contact from './frontend/Contact';
 // import Membership from './frontend/Membership';
 
 ReactDOM.render(
@@ -77,6 +78,7 @@ ReactDOM.render(
             <Route path='/editadmin/:id' component={EditAdmin} />
             <Route path='/create' component={Create} />
             <Route path='/show/:id' component={Show} />
+            <Route path='/contact' component={Contact} />
             <Route path='/showadmin/:id' component={ShowAdmin} />
             <Route path='/showorder/:id' component={ShowOrder} />
         </div>

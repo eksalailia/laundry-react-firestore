@@ -71,13 +71,13 @@ class Create extends Component {
               </div>
               
               <div class="form-group">
-                <label for="berat">berat:</label>
-                <input type="number" class="form-control" name="berat" value={berat} onChange={this.onChange} placeholder="berat" />
+                <label for="berat">Berat:</label>
+                <input type="number" class="form-control" name="berat" value={berat} onChange={this.onChange} placeholder="Berat" />
               </div>
 
               <div class="form-group">
-                <label for="berat">total:</label>
-                <input type="number" class="form-control" name="total" value={total} onChange={this.onChange} placeholder="total" />
+                <label for="berat">Total:</label>
+                <input type="number" class="form-control" name="total" value={total} onChange={this.onChange} placeholder="Total" />
               </div>
 
 

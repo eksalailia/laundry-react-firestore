@@ -50,11 +50,11 @@ class Create extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              Add layanan
+              Add Layanan
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/layanan" class="btn btn-primary">layanan List</Link></h4>
+            <h4><Link to="/layanan" class="btn btn-primary">Layanan List</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
                 <label for="nama">Nama:</label>
@@ -62,13 +62,13 @@ class Create extends Component {
               </div>
 
               <div class="form-group">
-                <label for="harga">harga:</label>
-                <input type="text" class="form-control" name="harga" value={harga} onChange={this.onChange} placeholder="harga" />
+                <label for="harga">Harga:</label>
+                <input type="text" class="form-control" name="harga" value={harga} onChange={this.onChange} placeholder="Harga" />
               </div>
               
               <div class="form-group">
-                <label for="deskripsi">deskripsi:</label>
-                <input type="text" class="form-control" name="deskripsi" value={deskripsi} onChange={this.onChange} placeholder="deskripsi" />
+                <label for="deskripsi">Deskripsi:</label>
+                <input type="text" class="form-control" name="deskripsi" value={deskripsi} onChange={this.onChange} placeholder="Deskripsi" />
               </div>
 
               <button type="submit" class="btn btn-success">Submit</button>

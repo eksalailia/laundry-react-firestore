@@ -62,7 +62,7 @@ class Dashboard extends Component {
               <thead>
                 <tr>
                   <th>Nama</th>
-                  <th>harga</th>
+                  <th>Harga</th>
                   <th>Deskripsi</th>
                   <th>Action</th>
                 </tr>
@@ -81,7 +81,7 @@ class Dashboard extends Component {
                 )}
               </tbody>
             </table>
-            <h4><Link to="/dashboard" class="btn btn-info">Dashboard</Link></h4>
+            <h4><Link to="/dashboard" class="btn btn-info">Back to Dashboard</Link></h4>
           </div>
         </div>
       </div>

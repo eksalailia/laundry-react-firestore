@@ -53,14 +53,14 @@ class DataAdmin extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              Add admin
+              Add Admin
             </h3>
           </div>
           <div class="panel-body">
             <h4><Link to="/admin" class="btn btn-primary">Admin List</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
-                <label for="id">ID:</label>
+                <label for="id">ID Admin:</label>
                 <input type="text" class="form-control" name="id" value={id} onChange={this.onChange} placeholder="Id" />
               </div>
 

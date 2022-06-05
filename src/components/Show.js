@@ -41,7 +41,7 @@ class Show extends Component {
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
-          <h4><Link to="/layanan">layanan List</Link></h4>
+          <h4><Link to="/layanan">Layanan List</Link></h4>
             <h3 class="panel-title">
               {this.state.layanan.title}
             </h3>
@@ -50,11 +50,11 @@ class Show extends Component {
             <dl>
               <dt>Nama:</dt>
               <dd>{this.state.layanan.nama}</dd>
-              <dt>harga:</dt>
+              <dt>Harga:</dt>
               <dd>{this.state.layanan.harga}</dd>
-              <dt>deskripsi:</dt>
+              <dt>Deskripsi:</dt>
               <dd>{this.state.layanan.deskripsi}</dd>
-              <dt>Angkatan:</dt>
+             
               
             </dl>
             {/* <Link to={`/edit/${this.state.key}`} class="btn btn-success">Edit</Link>&nbsp; */}

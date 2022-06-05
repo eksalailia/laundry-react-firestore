@@ -50,11 +50,11 @@ class ShowOrder extends Component {
             <dl>
               <dt>Nama:</dt>
               <dd>{this.state.order.nama}</dd>
-              <dt>layanan:</dt>
+              <dt>Layanan:</dt>
               <dd>{this.state.order.layanan}</dd>
-              <dt>berat:</dt>
+              <dt>Berat:</dt>
               <dd>{this.state.order.berat}</dd>
-              <dt>total:</dt>
+              <dt>Total:</dt>
               <dd>{this.state.order.total}</dd>
             </dl>
             {/* <Link to={`/edit/${this.state.key}`} class="btn btn-success">Edit</Link>&nbsp; */}
