@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
 
-class Insaran extends Component {
+class FormSaran extends Component {
 
   constructor() {
     super();
@@ -54,7 +54,7 @@ class Insaran extends Component {
           <div class="panel-body">
             <h4><Link to="/home" class="btn btn-info">Back to Home</Link></h4>
             <form onSubmit={this.onSubmit}>
-              <div class="form-group">
+              {/* <div class="form-group">
                 <label for="kritik">Kritik:</label>
                 <input type="text" class="form-control" name="kritik" value={kritik} onChange={this.onChange} placeholder="Kritik" />
               </div>
@@ -63,6 +63,15 @@ class Insaran extends Component {
               <div class="form-group">
                 <label for="saran">Saran:</label>
                 <input type="text" class="form-control" name="saran" value={saran} onChange={this.onChange} placeholder="Saran" />
+              </div> */}
+               <div class="form-group">
+                <label for="kritik">Kritik:</label>
+                <input type="text" class="form-control" name="kritik" value={kritik} onChange={this.onChange} placeholder="Saran" />
+              </div>
+
+              <div class="form-group">
+                <label for="kritik">Saran:</label>
+                <input type="text" class="form-control" name="saran" value={saran} onChange={this.onChange} placeholder="Kritik" />
               </div>
 
 
@@ -76,4 +85,4 @@ class Insaran extends Component {
   }
 }
 
-export default Insaran;
+export default FormSaran;
