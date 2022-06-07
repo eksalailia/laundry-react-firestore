@@ -40,6 +40,7 @@ class Navbar extends Component{
                     <li><NavLink to="/contact">Contact Us</NavLink></li>
                     {/* <li><NavLink to="/login">Login</NavLink></li> */}
                     <li><NavLink to="/formorder">Form Order</NavLink></li>
+                    <li><NavLink to="/formsaran">Form Saran</NavLink></li>
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}
                   </ul>
             </Container>

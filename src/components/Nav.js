@@ -13,6 +13,7 @@ class Nav extends Component{
                     <li><NavLink to="/admin">Data Admin</NavLink></li>
                     <li><NavLink to="/layanan">Data Layanan</NavLink></li>
                     <li><NavLink to="/order">Pesanan</NavLink></li>
+                    <li><NavLink to="/kritiksaran">Kritik dan Saran</NavLink></li>
                     {/* <li><NavLink to="/login">Login</NavLink></li> */}
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}
                   </ul>

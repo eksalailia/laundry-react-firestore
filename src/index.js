@@ -55,6 +55,10 @@ import EditAdmin from './components/EditAdmin';
 import Dashboard from './components/Dashboard';
 import index from './components/index';
 import Contact from './frontend/Contact';
+import Saran from './components/Saran';
+import ShowSaran from './components/ShowSaran';
+import FormSaran from './components/FormSaran';
+import EditSaran from './components/EditSaran';
 // import Membership from './frontend/Membership';
 import Login from './components/Login';
 import Registrasi from './components/Registrasi';
@@ -85,6 +89,10 @@ ReactDOM.render(
             <Route path='/contact' component={Contact} />
             <Route path='/showadmin/:id' component={ShowAdmin} />
             <Route path='/showorder/:id' component={ShowOrder} />
+            <Route path='/showsaran/:id' component={ShowSaran} />
+            <Route path='/editsaran/:id' component={EditSaran} />
+            <Route path='/formsaran' component={FormSaran} />
+            <Route path='/kritiksaran' component={Saran} />
         </div>
     </Router>,
     document.getElementById('root')
