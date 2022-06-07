@@ -56,10 +56,14 @@ import Dashboard from './components/Dashboard';
 import index from './components/index';
 import Contact from './frontend/Contact';
 // import Membership from './frontend/Membership';
+import Login from './components/Login';
+import Registrasi from './components/Registrasi';
 
 ReactDOM.render(
     <Router>
         <div>
+            <Route exact path='/login' component={Login} />
+            <Route path='/registrasi' component={Registrasi} />
             <Route exact path='/' component={App} />
             <Route path='/layanan' component={Layanan} />
             <Route path='/home' component={App} />
