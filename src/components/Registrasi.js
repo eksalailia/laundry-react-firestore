@@ -29,8 +29,8 @@ class Registrasi extends Component {
         const {email, password} =this.state
         return (
             <div>
-                <h1 className="judul">Registrasi</h1>
-                <form onSubmit={this.handleSubmit}>
+                <h1 className="judulreg">Registrasi</h1>
+                <form class="formreg"onSubmit={this.handleSubmit}>
                     <div className="imgcontainer">
                         <h2><b>Laundry Kita</b></h2>
                     </div>
@@ -39,10 +39,10 @@ class Registrasi extends Component {
                         <input type="text" placeholder="Enter Email" name="email" value={email} onChange={this.handleChange} required />
                         <label><b>Password</b></label>
                         <input type="password" placeholder="Enter Password" name="password" value={password} onChange={this.handleChange} required />
-                        <button type="submit">Registrasi</button>
+                        <button class="buttonreg"type="submit">Registrasi</button>
                     </div>
                     <div className="container" style={{ backgroundColor: '#f1f1f1' }}>
-                        <button type="button" className="cancelbtn"><Link to="/login">Punya Akun?</Link></button>
+                        <button type="button" className="buttonreg"><Link to="/login">Punya Akun?</Link></button>
                     </div>
                 </form>
             </div>

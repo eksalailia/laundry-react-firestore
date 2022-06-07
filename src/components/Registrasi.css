@@ -1,4 +1,4 @@
-form {
+.formreg {
     border: 3px solid #8b8787;
     width: 350px;
     margin:auto;
@@ -7,7 +7,7 @@ form {
     margin-right: auto;
 }
 
-.judul{
+.judulreg{
     text-align: center;
     margin: 30px auto;
 }
@@ -21,7 +21,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-button {
+.buttonreg {
     background-color: #006666;
     color: #FFFFFF;
     padding: 14px 20px;

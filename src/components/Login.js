@@ -31,20 +31,21 @@ class Login extends Component {
         const { email, password } = this.state
         return (
             <div>
-                <h1 class="judul">Login</h1>
-                <form onSubmit={this.handleSubmit}>
+                <h1 class="judullog">Login Admin</h1>
+                <form class="formlog"onSubmit={this.handleSubmit}>
                     <div className="imgcontainer">
                         <h2><b>Laundry Kita</b></h2>
                     </div>
-                    <div className="container">
+                    <div className="containerlog">
                         <label><b>Email</b></label>
-                        <input type="text" placeholder="Enter Email" name="email" value={email} onChange={this.handleChange} required />
+                        <input class="inputlog" type="text" placeholder="Enter Email" name="email" value={email} onChange={this.handleChange} required />
                         <label><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="password" value={password} onChange={this.handleChange} required />
-                        <button type="submit">Login</button>
+                        <input class="inputpass" type="password" placeholder="Enter Password" name="password" value={password} onChange={this.handleChange} required />
+                        <button class="buttonlog" type="submit">Login</button>
                     </div>
-                    <div className="container" style={{ backgroundColor: '#f1f1f1' }}>
-                        <button type="button" className="cancelbtn"><Link to="/registrasi">Belum Punya Akun?</Link></button>
+                    <div className="containerlog" style={{ backgroundColor: '#f1f1f1' }}>
+                        {/* <button type="button" className="containerlog"><Link to="/registrasi">Belum Punya Akun?</Link></button> */}
+                        <button type="button" class="buttonlog"><Link to="/registrasi">Belum Punya Akun?</Link></button>
                     </div>
                 </form>
             </div>

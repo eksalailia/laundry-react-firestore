@@ -66,12 +66,12 @@ class FormSaran extends Component {
               </div> */}
                <div class="form-group">
                 <label for="kritik">Kritik:</label>
-                <input type="text" class="form-control" name="kritik" value={kritik} onChange={this.onChange} placeholder="Saran" />
+                <textarea cols="30" rows="5" class="form-control" name="kritik" value={kritik} onChange={this.onChange} placeholder="Tulis Kritik Anda..." />
               </div>
 
               <div class="form-group">
                 <label for="kritik">Saran:</label>
-                <input type="text" class="form-control" name="saran" value={saran} onChange={this.onChange} placeholder="Kritik" />
+                <textarea cols="30" rows="5" class="form-control" name="saran" value={saran} onChange={this.onChange} placeholder="Tulis Saran Anda..." />
               </div>
 
 

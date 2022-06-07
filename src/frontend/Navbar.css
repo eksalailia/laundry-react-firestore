@@ -20,14 +20,18 @@ body{
     display: inline;
     list-style-type: none;
     margin: 0;
+   
   }
   
-  ul.MenuAtas li a{
+  ul.MenuAtas li a:hover{
     color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.24);
+    
   }
+
   .content {
     background-color: #FFFFFF;
     padding: 20px;
