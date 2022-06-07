@@ -35,7 +35,7 @@ export class Contact extends Component {
 
                                     <div class="content mt-4 pt-2">
                                         <h5 class="mb-3">Email</h5>
-                                        <p class="text-muted">Kirimkan kritik dan saran Anda melalui email di bawah ini</p>
+                                        <p class="text-muted">Anda juga bisa menghubungi kami melalui email berikut</p>
                                         <a href="mailto:contact@example.com" class="link">laundry_kita@gmail.com</a>
                                     </div>
                                 </div>
