@@ -44,7 +44,7 @@ class Login extends Component {
                         <button type="submit">Login</button>
                     </div>
                     <div className="container" style={{ backgroundColor: '#f1f1f1' }}>
-                        <button type="button" className="cancelbtn"><Link to="/registrasi">Belum Punya Akun ?</Link></button>
+                        <button type="button" className="cancelbtn"><Link to="/registrasi">Belum Punya Akun?</Link></button>
                     </div>
                 </form>
             </div>

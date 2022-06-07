@@ -14,6 +14,7 @@ const config = {
   measurementId: "G-9931TCVEEC"
 };
 firebase.initializeApp(config);
+firebase.auth();
 firebase.firestore().settings(settings);
 
 
