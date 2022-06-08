@@ -40,11 +40,11 @@ class Home extends Component {
     render() {
         let layananList = this.state.layanan.map(layanan => {
             return (
-                <div class="card" style={{ width: '28rem' }}>
+                <div class="card mb-2" style={{ width: '28rem' }}>
                     <div class="card bg-info text-white">
 	                <div class="card-header">
-                        <h4>Layanan</h4><hr className="border-white"/>
-                        <p class="card-title">{layanan.nama}</p>
+                        <h4>{layanan.nama}</h4><hr className="border-white"/>
+                        {/* <p class="card-title">{layanan.nama}</p> */}
                         <p class="card-title">{layanan.harga}</p>
                         <p class="card-title">{layanan.deskripsi}</p>
                     </div>

@@ -42,7 +42,8 @@ class Registrasi extends Component {
                         <button class="buttonreg"type="submit">Registrasi</button>
                     </div>
                     <div className="container" style={{ backgroundColor: '#f1f1f1' }}>
-                        <button type="button" className="buttonreg"><Link to="/login">Punya Akun?</Link></button>
+                        {/* <button type="button" className="buttonreg"><Link to="/login">Punya Akun?</Link></button> */}
+                        <p>Sudah punya akun? <Link to="/login">Silahkan Login</Link></p>
                     </div>
                 </form>
             </div>

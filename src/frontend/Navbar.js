@@ -31,7 +31,7 @@ import { Container } from "@material-ui/core";
 class Navbar extends Component{
     render(){
         return(
-            <Container>
+            <div>
                   {/* <h1 className="Judul">Log of Oyazhuryachna</h1>   */}
                   <ul className="MenuAtas">
                     <li><NavLink className="navbar-brand" to="/">LaundryKita</NavLink></li>
@@ -43,7 +43,7 @@ class Navbar extends Component{
                     <li><NavLink to="/formsaran">Form Saran</NavLink></li>
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}
                   </ul>
-            </Container>
+            </div>
         )
     }
 }

@@ -31,8 +31,8 @@ export class About extends Component {
                         <p class="wow-txt" data-splitting>Laundry Kita adalah company yang bergerak di bidang jasa
                         yang menawarkan jasa cuci pakaian dan sejenisnya.
                             Laundry Kita memudahkan bagi para konsumen agar lebih praktis dalam melakukan pekerjaannya.
-                            Mengingat sekarang banyak masyarakat lebih sibuk dengan pekerjaan kantor mereka,
-                            maka didirikanlah Laundry Kita.</p>
+                            Laundry Kita sudah memiliki pengalaman lebih dari 5 tahun, sehingga pelayanan Laundry Kita
+                            akan sangat terjamin untuk para konsumen.</p>
                          {/* <br/>Pelayanan Laundry Kita pun tidak sembarangan. Laundry Kita akan melayani sepenuh hati</p> */}
                     </div>
                 </div>

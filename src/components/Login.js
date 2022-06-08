@@ -45,7 +45,8 @@ class Login extends Component {
                     </div>
                     <div className="containerlog" style={{ backgroundColor: '#f1f1f1' }}>
                         {/* <button type="button" className="containerlog"><Link to="/registrasi">Belum Punya Akun?</Link></button> */}
-                        <button type="button" class="buttonlog"><Link to="/registrasi">Belum Punya Akun?</Link></button>
+                        {/* <p class="buttonlog"><Link to="/registrasi">Belum Punya Akun?</Link></p> */}
+                        <p>Belum punya akun? <Link to="/registrasi">Silahkan Registrasi</Link></p>
                     </div>
                 </form>
             </div>

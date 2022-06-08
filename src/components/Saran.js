@@ -59,8 +59,8 @@ class Saran extends Component {
             <table class="table table-stripe">
               <thead>
                 <tr>
-                  <th>Saran</th>
                   <th>Kritik</th>
+                  <th>Saran</th>
                   <th>Action</th>
                 </tr>
               </thead>
