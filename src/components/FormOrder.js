@@ -71,7 +71,7 @@ class Create extends Component {
               </div>
               
               <div class="form-group">
-                <label for="berat">Berat:</label>
+                <label for="berat">Berat (kg):</label>
                 <input type="number" class="form-control" name="berat" value={berat} onChange={this.onChange} placeholder="Berat" />
               </div>
 

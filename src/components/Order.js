@@ -63,7 +63,7 @@ class Order extends Component {
                 <tr>
                   <th>Nama</th>
                   <th>Layanan</th>
-                  <th>Berat</th>
+                  <th>Berat (kg)</th>
                   <th>Total</th>
                   <th>Action</th>
                 </tr>
@@ -74,7 +74,7 @@ class Order extends Component {
                     {/* <td><Link to={`/show/${mahasiswa.key}`}>{mahasiswa.nama}</Link></td> */}
                     <td>{order.nama}</td>
                     <td>{order.layanan}</td>
-                    <td>{order.berat}</td>
+                    <td>{order.berat} kg</td>
                     <td>{order.total}</td>
                     <Link to={`/editorder/${order.key}`} class="btn btn-success">Edit</Link>&nbsp;
                     <Link to={`/showorder/${order.key}`} class="btn btn-warning">Show</Link>&nbsp;
