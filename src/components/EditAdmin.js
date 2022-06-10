@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
+import {FaList} from "react-icons/fa";
 
 class EditAdmin extends Component {
 
@@ -75,7 +76,7 @@ class EditAdmin extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/admin" class="btn btn-primary">Admin List</Link></h4>
+            <h4><Link to="/admin" class="btn btn-primary"><FaList/> Admin List</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
                 <label for="id"> Admin:</label>

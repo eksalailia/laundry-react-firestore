@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
+import {FaTrashAlt} from "react-icons/fa";
 
 class ShowSaran extends Component {
 
@@ -55,7 +56,7 @@ class ShowSaran extends Component {
 
             </dl>
             {/* <Link to={`/edit/${this.state.key}`} class="btn btn-success">Edit</Link>&nbsp; */}
-            <button onClick={this.delete.bind(this, this.state.key)} class="btn btn-danger">Delete</button>
+            <button onClick={this.delete.bind(this, this.state.key)} class="btn btn-danger"><FaTrashAlt/> Delete</button>
           </div>
         </div>
       </div>

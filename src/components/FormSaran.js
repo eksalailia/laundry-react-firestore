@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
+import { MdKeyboardBackspace } from "react-icons/md";
 
 class FormSaran extends Component {
 
@@ -52,7 +53,7 @@ class FormSaran extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/home" class="btn btn-info">Back to Home</Link></h4>
+            <h4><Link to="/home" class="btn btn-info"><MdKeyboardBackspace/> Back to Home</Link></h4>
             <form onSubmit={this.onSubmit}>
               {/* <div class="form-group">
                 <label for="kritik">Kritik:</label>

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
+import {FaEdit} from "react-icons/fa";
+import { BiDetail } from "react-icons/bi";
+import { MdAdd, MdKeyboardBackspace } from "react-icons/md";
 import firebase from '../Firebase';
 
 class Admin extends Component {
@@ -57,7 +60,7 @@ class Admin extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/dataadmin" class="btn btn-primary">Add Admin</Link></h4>
+            <h4><Link to="/dataadmin" class="btn btn-primary"><MdAdd/> Add Admin</Link></h4>
             <table class="table table-stripe">
               <thead>
                 <tr>
@@ -76,14 +79,14 @@ class Admin extends Component {
                     <td>{admin.nama}</td>
                     <td>{admin.alamat}</td>
                     <td>{admin.telepon}</td>
-                    <Link to={`/editadmin/${admin.key}`} class="btn btn-success">Edit</Link>&nbsp;
-                    <Link to={`/showadmin/${admin.key}`} class="btn btn-warning">Show</Link>&nbsp;
+                    <Link to={`/editadmin/${admin.key}`} class="btn btn-success"><FaEdit/> Edit</Link>&nbsp;
+                    <Link to={`/showadmin/${admin.key}`} class="btn btn-warning"><BiDetail/> Show</Link>&nbsp;
                     {/* <button onClick={this.delete.bind(this, this.key)} class="btn btn-danger">Delete</button> */}
                   </tr>
                 )}
               </tbody>
             </table>
-            <h4><Link to="/dashboard" class="btn btn-info">Back to Dashboard</Link></h4>
+            <h4><Link to="/dashboard" class="btn btn-info"><MdKeyboardBackspace/> Back to Dashboard</Link></h4>
           </div>
         </div>
       </div>

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import firebase from '../Firebase';
+import {FaEdit} from "react-icons/fa";
+import { BiDetail } from "react-icons/bi";
+import { MdAdd, MdKeyboardBackspace } from "react-icons/md";
 
 class Saran extends Component {
   constructor(props) {
@@ -55,7 +58,7 @@ class Saran extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/formsaran" class="btn btn-primary">Add Kritik Saran</Link></h4>
+            <h4><Link to="/formsaran" class="btn btn-primary"><MdAdd/> Add Kritik Saran</Link></h4>
             <table class="table table-stripe">
               <thead>
                 <tr>
@@ -71,14 +74,14 @@ class Saran extends Component {
                     <td>{kritiksaran.kritik}</td>
                     <td>{kritiksaran.saran}</td>
 
-                    <Link to={`/editsaran/${kritiksaran.key}`} class="btn btn-success">Edit</Link>&nbsp;
-                    <Link to={`/showsaran/${kritiksaran.key}`} class="btn btn-warning">Show</Link>&nbsp;
+                    <Link to={`/editsaran/${kritiksaran.key}`} class="btn btn-success"><FaEdit/> Edit</Link>&nbsp;
+                    <Link to={`/showsaran/${kritiksaran.key}`} class="btn btn-warning"><BiDetail/> Show</Link>&nbsp;
                     {/* <button onClick={this.delete.bind(this, this.key)} class="btn btn-danger">Delete</button> */}
                   </tr>
                 )}
               </tbody>
             </table>
-            <h4><Link to="/dashboard" class="btn btn-info">Back to Dashboard</Link></h4>
+            <h4><Link to="/dashboard" class="btn btn-info"><MdKeyboardBackspace/> Back to Dashboard</Link></h4>
           </div>
         </div>
       </div>

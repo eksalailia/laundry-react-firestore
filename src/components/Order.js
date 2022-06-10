@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import firebase from '../Firebase';
+import {FaEdit} from "react-icons/fa";
+import { BiDetail } from "react-icons/bi";
+import { MdAdd, MdKeyboardBackspace } from "react-icons/md";
 
 class Order extends Component {
   constructor(props) {
@@ -57,7 +60,7 @@ class Order extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/formorder" class="btn btn-primary">Add Order</Link></h4>
+            <h4><Link to="/formorder" class="btn btn-primary"><MdAdd/> Add Order</Link></h4>
             <table class="table table-stripe">
               <thead>
                 <tr>
@@ -76,14 +79,14 @@ class Order extends Component {
                     <td>{order.layanan}</td>
                     <td>{order.berat} kg</td>
                     <td>{order.total}</td>
-                    <Link to={`/editorder/${order.key}`} class="btn btn-success">Edit</Link>&nbsp;
-                    <Link to={`/showorder/${order.key}`} class="btn btn-warning">Show</Link>&nbsp;
+                    <Link to={`/editorder/${order.key}`} class="btn btn-success"><FaEdit/> Edit</Link>&nbsp;
+                    <Link to={`/showorder/${order.key}`} class="btn btn-warning"><BiDetail/> Show</Link>&nbsp;
                     {/* <button onClick={this.delete.bind(this, this.key)} class="btn btn-danger">Delete</button> */}
                   </tr>
                 )}
               </tbody>
             </table>
-            <h4><Link to="/dashboard" class="btn btn-info">Back to Dashboard</Link></h4>
+            <h4><Link to="/dashboard" class="btn btn-info"><MdKeyboardBackspace/> Back to Dashboard</Link></h4>
           </div>
         </div>
       </div>

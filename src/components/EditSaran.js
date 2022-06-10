@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
+import {FaList} from "react-icons/fa";
 
 class EditSaran extends Component {
 
@@ -63,12 +64,10 @@ class EditSaran extends Component {
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">
-              Edit Kritik Saran
-            </h3>
+            <h3 class="panel-title">Edit Kritik Saran</h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/kritiksaran" class="btn btn-primary">Kritik dan Saran</Link></h4>
+            <h4><Link to="/kritiksaran" class="btn btn-primary"><FaList/> List Kritik Saran</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
                 <label for="kritik">Kritik:</label>

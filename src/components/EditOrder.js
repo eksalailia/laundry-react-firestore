@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
+import {FaList} from "react-icons/fa";
 
 class EditOrder extends Component {
 
@@ -74,7 +75,7 @@ class EditOrder extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/order" class="btn btn-primary">Order List</Link></h4>
+            <h4><Link to="/order" class="btn btn-primary"><FaList/> Order List</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
                 <label for="nama">Nama:</label>

@@ -27,6 +27,11 @@ import About from "../frontend/About";
 import Contact from "../frontend/Contact";
 import './Navbar.css'
 import { Container } from "@material-ui/core";
+import {FaHome, FaClipboardList} from "react-icons/fa";
+import {BiCommentDots} from "react-icons/bi";
+import {HiUserGroup} from "react-icons/hi";
+import {MdCall} from "react-icons/md";
+import {TbFilePencil} from "react-icons/tb";
 
 class Navbar extends Component{
     render(){
@@ -35,12 +40,12 @@ class Navbar extends Component{
                   {/* <h1 className="Judul">Log of Oyazhuryachna</h1>   */}
                   <ul className="MenuAtas">
                     <li><NavLink className="navbar-brand" to="/">LaundryKita</NavLink></li>
-                    <li><NavLink to="/home">Home</NavLink></li>
-                    <li><NavLink to="/about">About Us</NavLink></li>
-                    <li><NavLink to="/contact">Contact Us</NavLink></li>
+                    <li><NavLink to="/home"><FaHome/> Home</NavLink></li>
+                    <li><NavLink to="/about"><HiUserGroup/> About Us</NavLink></li>
+                    <li><NavLink to="/contact"><MdCall/> Contact Us</NavLink></li>
                     {/* <li><NavLink to="/login">Login</NavLink></li> */}
-                    <li><NavLink to="/formorder">Form Order</NavLink></li>
-                    <li><NavLink to="/formsaran">Form Saran</NavLink></li>
+                    <li><NavLink to="/formorder"><TbFilePencil/> Form Order</NavLink></li>
+                    <li><NavLink to="/formsaran"><BiCommentDots/> Form Saran</NavLink></li>
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}
                   </ul>
             </div>
