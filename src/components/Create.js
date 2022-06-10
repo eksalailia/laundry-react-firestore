@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
+import {FaList} from "react-icons/fa";
 
 class Create extends Component {
 
@@ -54,7 +55,7 @@ class Create extends Component {
             </h3>
           </div>
           <div class="panel-body">
-            <h4><Link to="/layanan" class="btn btn-primary">Layanan List</Link></h4>
+            <h4><Link to="/layanan" class="btn btn-primary"><FaList/> Layanan List</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
                 <label for="nama">Nama:</label>
