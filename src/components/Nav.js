@@ -4,9 +4,22 @@ import {FaClipboardList, FaUserAlt, FaCommentAlt} from "react-icons/fa";
 import {RiFileList3Fill} from "react-icons/ri";
 import {BiCommentDetail} from "react-icons/bi";
 import './Nav.css'
-import { Container } from "@material-ui/core";
+import { Container, Button } from "@material-ui/core";
+import firebase from "../Firebase";
+
 
 class Nav extends Component{
+
+    handleLogOut = () =>{
+        firebase.auth().signOut()
+        .then(res=>{
+            alert('LogOut Berhasil !');
+        })
+        .catch(error=>{
+            alert(error.message)
+        })
+    }
+
     render(){
         return(
             <Container>
@@ -17,7 +30,7 @@ class Nav extends Component{
                     <li><NavLink to="/layanan"><RiFileList3Fill/> Data Layanan</NavLink></li>
                     <li><NavLink to="/order"><FaClipboardList/> Pesanan</NavLink></li>
                     <li><NavLink to="/kritiksaran"><BiCommentDetail/> Kritik dan Saran</NavLink></li>
-                    {/* <li><NavLink to="/login">Login</NavLink></li> */}
+                    <li><Button onClick={this.handleLogOut} href="/login">Logout</Button></li>
                     {/* <li><NavLink to="/contactme">Contact Me</NavLink></li> */}
                   </ul>
                   

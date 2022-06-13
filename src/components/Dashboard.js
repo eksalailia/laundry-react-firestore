@@ -42,9 +42,9 @@ class Dashboard extends Component {
     render() {
         let adminList = this.state.admin.map(admin => {
             return (
-                <div class="card mb-2" style={{ width: '28rem' }}>
-                     <div class="card bg-info text-white">
-	                    <div class="card-header">
+                <div className="card mb-2" style={{ width: '28rem' }}>
+                     <div className="card bg-info text-white">
+	                    <div className="card-header">
                         <h4>Admin Laundry Kita</h4><hr className="border-white"/>
                         <div>ID Admin&ensp;&ensp;: {admin.id}</div>
                         <div>Nama &emsp;&ensp;&ensp; : {admin.nama}</div>
