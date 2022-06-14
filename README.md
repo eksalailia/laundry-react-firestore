@@ -1,6 +1,6 @@
 ## PROJECT UAS PEMROGRAMAN BERBASIS FRAMEWORK
 
-Nama Project : Sistem Informasi Laundry (SILA) Berbasis Web Menggunakan Framework ReactJs
+Nama Project : Sistem Informasi Layanan Laundry (SILLA) Berbasis Web Menggunakan Framework ReactJs
 
 Nama Anggota :
 1. Dita Nur A
