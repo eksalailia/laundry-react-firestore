@@ -1,33 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import './index.css';
-// import App from './App';
-// // import Home from './Home';
-// import * as serviceWorker from './serviceWorker';
-// import Edit from './components/Edit';
-// import Create from './components/Create';
-// import Show from './components/Show';
-// import Registrasi from './components/Registrasi';
-// import Login from './components/Login';
-
-// ReactDOM.render(
-//   <Router>
-//       <div>
-//       <Route path='/login' component={Login} />
-//         <Route path='/registrasi' component={Registrasi} />
-//         <Route exact path='/' component={App} />
-//         <Route path='/edit/:id' component={Edit} />
-//         <Route path='/create' component={Create} />
-//         <Route path='/show/:id' component={Show} />
-//       </div>
-//   </Router>,
-//   document.getElementById('root')
-// );
-// serviceWorker.unregister();
-
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -59,7 +29,6 @@ import Saran from './components/Saran';
 import ShowSaran from './components/ShowSaran';
 import FormSaran from './components/FormSaran';
 import EditSaran from './components/EditSaran';
-// import Membership from './frontend/Membership';
 import Login from './components/Login';
 import Registrasi from './components/Registrasi';
 
@@ -77,10 +46,7 @@ ReactDOM.render(
             <Route path='/order' component={Order} />
             <Route path='/admin' component={Admin} />
             <Route path='/dataadmin' component={DataAdmin} />
-            {/* <Route path='/cart' component={Cart} />
-            <Route path='/customercare' component={CustomerCare} /> */}
             <Route path='/about' component={About} />
-            {/* <Route path='/membership' component={Membership} /> */}
             <Route path='/edit/:id' component={Edit} />
             <Route path='/editorder/:id' component={EditOrder} />
             <Route path='/editadmin/:id' component={EditAdmin} />
