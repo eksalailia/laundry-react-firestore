@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from '../Firebase';
+import './Home.css';
 
 class Home extends Component {
 
@@ -54,8 +55,8 @@ class Home extends Component {
             )
         })
         return (
-            <div className="container">
-                <h2 className="center">Daftar Layanan</h2><br></br>
+            <div className="containerhome">
+                <h2 className="center" >Daftar Layanan</h2><br></br>
                 <div className="box" align="center">
                     {layananList}
                 </div>

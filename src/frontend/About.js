@@ -9,7 +9,7 @@ export class About extends Component {
             <div>
                 <Navbar/>
                 <section class="agency section-padding position-re">
-        <div class="container">
+        <div class="containerabout">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="imgsec md-mb50">
